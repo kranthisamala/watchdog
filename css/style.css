@@ -1,0 +1,212 @@
+*{
+	font-family:Arial,Helvetica,Sans-Serit;
+	margin:0px;
+}
+body
+{
+	margin:0px;
+	padding:0px;
+	background: url("../res/watch_dog1.png") no-repeat center center fixed;	
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  background-size: cover;
+}
+#nav{
+	position:absolute;
+	margin:0px;
+	left:0px;
+	top:50px;
+	width:100%;
+	height:70px;
+	background-color:white;
+	z-index:2;
+	border-bottom:1px solid rgb(36,52,83);
+}
+#title{
+	height:100%;
+}
+#middle
+{
+	overflow:hidden;
+	top:580px;
+	position:relative;
+	z-index:1;
+}
+#about_us{
+	margin-left:15px;
+	top:100px;
+	background-color:e8e8e8;
+	padding:30px;
+	opacity:0;
+}
+
+#about_us p{
+	font-size:15px;
+	text-align:justify;
+	padding:10px;
+}
+#div1{
+	width:0;
+	border-right:1500px solid transparent;
+	border-bottom:80px solid white;
+	margin-left:0px;
+	height:0px;
+	top:0px;
+	position:relative;
+}
+#div2{
+background:url("../res/middle2.png") no-repeat right top;
+padding-bottom:50px;
+height:auto;
+background-color:white;
+top:0px;
+position:relative;
+}
+#who_button
+{
+	position:relative;
+	color:white;
+	text-align:center;
+	font-size:25px;
+	padding:5px;
+	background-color:rgb(36,52,83);
+	width:150px;
+	height:45px;
+	top:200px;
+	margin:0 auto;
+	cursor:pointer;
+	opacity:0;
+	left:80px;
+}
+#div3{
+	width:0;
+	border-left:1500px solid transparent;
+	border-top:80px solid white;
+	margin-left:0px;
+	height:0px;
+	top:0px;
+	position:relative;
+}
+.menu{
+	font-size:25px;
+	padding:20px;
+	border-left:1px solid rgb(36,52,83);
+	border-right:1px solid rgb(36,52,83);
+	position:relative;
+	top:0px;
+	cursor:pointer;
+	background-color:white;
+	font-weight:b;
+}
+.menu:hover
+{
+	color:white;
+	background-color:rgb(36,52,83);
+}
+/*/////////////////////////////Login Menu/////////////////////////////////////////*/
+#login{
+	position:absolute;
+	top:7px;
+	right:2px;
+	float:left;
+	width:auto;
+	height:400px;
+}
+#login_menu{
+	border-radius:50%;
+	width:55;
+	height:55px;
+	position:absolute;
+	top:0px;
+	right:0px;
+	border:1px solid rgb(36,52,83);
+	background-color:white;
+	text-align:center;
+	color:rgb(36,52,83);
+	font-size:30px;
+	margin-left:40px;
+	padding-top:12px;
+	cursor:pointer;
+	z-index:3;
+	box-shadow:  0 0 10px #fff;
+}
+#login_menu:hover{
+	color:white;
+	background-color:rgb(36,52,83);
+	border:1px solid white;
+	box-shadow: inset 0 0 20px #fff;
+}
+#login_form_holder 
+{
+	position:relative;
+	top:50px;
+	padding:20px;
+	padding-top:5px;
+	padding-left:20px;
+	height:auto;
+	width:200px;
+	display:none;
+}
+#login_text
+{
+	position:relative;
+	top:5px;
+	width:180px;
+	height:40px;
+	text-align:center;
+background: -webkit-linear-gradient(rgb(27,35,62), rgb(72,103,144)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgb(27,35,62), rgb(72,103,144)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgb(27,35,62), rgb(72,103,144)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgb(27,35,62), rgb(72,103,144)); /* Standard syntax */
+
+	color:white;
+	font-size:25px;
+}
+#login_form
+{
+	width:180px;
+	background-color:white;
+	padding-top:10px;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+#login_form input[type='text'],#login_form input[type='password']
+{
+	width:160px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:5px;
+	padding-left:7px;
+}
+#submit
+{
+	margin:0px;
+	margin-top:5px;
+	width:100%;
+	background: -webkit-linear-gradient(rgb(27,35,62), rgb(72,103,144)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgb(27,35,62), rgb(72,103,144)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgb(27,35,62), rgb(72,103,144)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgb(27,35,62), rgb(72,103,144)); /* Standard syntax */
+
+	border:0px;
+	color:white;
+	font-size:20px;
+	height:30px;
+}
+#triangle{
+  position:relative;
+  top:5px;
+  left:135px;
+  width:0;
+  border-top:12x solid transparent;
+  border-right:12px solid transparent;
+  border-bottom:12px solid rgb(27,35,62);
+  border-bottom:12px solid rgb(27,35,62);
+  border-bottom:12px solid rgb(27,35,62);
+  border-bottom:12px solid rgb(27,35,62);
+  border-left:12px solid transparent;
+}
+img{
+display:none;
+}
