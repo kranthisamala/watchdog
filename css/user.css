@@ -168,11 +168,16 @@ height:auto;
 /*------------------------------session----------------------------------*/
 .session_details
 {
-	margin-top:50px;
+	margin-top:10px;
 	margin-left:10px;
 	height:auto;
 	position:relative;
 	text-decoration:capitalize;
+	padding-bottom:40px;
+}
+.session_details:hover
+{
+	background-color:rgb(84,222,125);
 }
 .session_no
 {

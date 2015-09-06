@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	var scroll;
-	alert("hello");
 	function nav_adjust(){
 		if(scroll>70)
 		{

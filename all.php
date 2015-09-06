@@ -45,7 +45,7 @@
 			$eid=$_GET['eid'];
 			$query="SELECT * FROM session WHERE eid='$eid' ORDER BY sessionid DESC";
 			$query=mysql_query($query);
-			echo "<div class='container-fluid' style='background-color:#F0F0F0'>";
+			echo "<div class='container-fluid'>";
 			while($res=mysql_fetch_assoc($query))
 			{
 					$start_date = new DateTime($res['start']);
@@ -82,7 +82,6 @@
 				{
 					echo	"<div class='col-md-2 image_holder'>
 								<img src='get_image.php?id=".$res1['imgid']."' width='100%' id='".$res1['imgid']."' height='100%'>
-								<div style='padding:10px;background-color:white;'></div>
 							</div>";
 				}
 				
