@@ -12,6 +12,10 @@ $("#search").keyup(function(){
 			$("#search_result").html("");
 		}
 });
+$("#search_group").blur(function(){
+	$("#search_result").html("");
+	$(this).val("");
+});
 $("#date").blur(function(){
 	var val=$(this).val();
 	alert(val);
@@ -30,5 +34,12 @@ $(document).ready(function(){
 	});
 	$('img').on('load',function(){
 		$(this).show();
+	});
+	$('.delete_image').click(function(){
+		var imgid=$(this).attr("imgid");
+		$(this).parent(".image_holder").hide(200);
+		$.post("deleteimg.php",{imgid:imgid},function(data){
+			/*alert(data);*/
+			});
 	});
 });

@@ -51,6 +51,28 @@ body{height:1500px;}
 #left_box h4{
 	padding-left:10px;
 }
+#navigator{
+	z-index:1;top:55px;
+	-moz-box-shadow:inset 0 0 15px #000000; 
+	-webkit-box-shadow: inset 0 0 15px #000000; 
+	box-shadow: inset 0 0 15px #000000;
+	padding:0;
+	padding-right:5px;
+	padding-top:15px;
+	background-color:rgb(51,51,51);
+	position:fixed;
+	height:100%;
+}
+@media only screen and (max-width: 756px) {
+	#navigator {
+		height: relative;
+		display: none;
+	}
+}
+@media only screen and (max-width: 620px ) { 
+	
+	
+ }
 .team_name{
 	position:relative;
 	top:0px;
@@ -67,15 +89,15 @@ body{height:1500px;}
 }
 /**************sdkmv*****/
 a:link {
-    text-decoration: inherit;
-    color: inherit;
-    cursor: auto;
+	text-decoration: inherit;
+	color: inherit;
+	cursor: auto;
 }
 
 a:visited {
-    text-decoration: inherit;
-    color: inherit;
-    cursor: auto;
+	text-decoration: inherit;
+	color: inherit;
+	cursor: auto;
 }
 ul{
 	list-style-type: none;
@@ -105,10 +127,10 @@ ul{
 .title:before
 {
 	position:absolute;
-        font-family: FontAwesome;
-        top:0;
-		left:3px;
-        content: "\f0d7";
+	font-family: FontAwesome;
+	top:0;
+	left:3px;
+	content: "\f0d7";
 }
 @keyframes pulse
 {
@@ -137,15 +159,17 @@ ul{
 	padding:10px;
 }
 .team_block a{
-height:auto;
+	height:auto;
 }
 .employee_box
 {
-	width:240px;
-	height:200px;
+	width:170px;
+	height:160px;
 	margin-top:25px;
+	margin-left:25px;
 	box-shadow:0px 0px 20px #777777;
 	cursor:pointer;
+	padding: 1px;
 }
 .employee_box:hover
 {
@@ -153,8 +177,18 @@ height:auto;
 }
 .employee_box img
 {
-	margin-left:25px;
-	margin-top:5px;
+	margin-top: 5px;
+}
+.employee_box:after
+{
+	width:100%;
+	height: 10px;
+	position: absolute;
+	display: block;
+	background-color: white;
+	content:" ";
+	left:0.5px; 
+	bottom: -10px;
 }
 .emp_name
 {
@@ -199,7 +233,7 @@ height:auto;
 }
 .image_holder:hover
 {
-		box-shadow:0px 0px 25px blue;
+	box-shadow:0px 0px 25px blue;
 }
 #image_viewer
 {
@@ -220,4 +254,25 @@ height:auto;
 	right:0px;
 	margin:20px;
 	cursor:pointer;
+}
+#home_button
+{
+	background-color:rgb(51,51,51);
+	padding-left:40px;
+	font-size:35px;
+	color:white;
+}
+#home_button:hover
+{
+	background-color:rgb(248,45,39);
+}
+.delete_image{
+
+	position:absolute;
+	right:5px;
+	top:5px;
+}
+.delete_image:hover
+{
+	color:rgb(248,45,39);
 }

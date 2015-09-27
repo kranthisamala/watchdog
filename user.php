@@ -14,16 +14,15 @@
 		<div class="container-fluid">
 		<div id="base">
 			<div id="nav" class="row">
-				<div  class="col-md-offset-1 col-md-4">
+				<a href="index.php"  ><div class="col-md-1" id="home_button"><i  class="fa fa-home"></i></div></a>
+				<div  class="col-md-4" id="search-group">
 					<div class="input-group">
 						<input id="search" type="text" class="form-control" placeholder="Search for...">
 						<span class="input-group-btn">
 							<button class="btn btn-default" type="button"><i class="fa fa-search" style="font-size:20px;"></i></button>
 						</span>
 					</div>
-					<div id="search_result" class="col-md-10">
-						
-					</div>
+					<div id="search_result" class="col-md-10"></div>
 				</div>
 				<div id="logout" class="col-md-offset-5 col-md-1"><a style="color:white;"href="logout.php">logout</a></div>
 			</div>
